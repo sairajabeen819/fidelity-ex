@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="14px" viewBox="0 0 7 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Arrow-Right</title>
+    <defs>
+        <polygon id="path-1" points="0.542825236 12.8402788 1.20717476 13.4097212 6.70122153 7 1.20717476 0.590278774 0.542825236 1.15972123 5.54877847 7"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-689.000000, -289.000000)">
+            <g id="Card-/-Events" transform="translate(64.000000, 276.000000)">
+                <g id="More-&gt;-" transform="translate(584.000000, 11.000000)">
+                    <g id="Icons-/-Arrow-Right" transform="translate(37.000000, 2.000000)">
+                        <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="14" height="14"></rect>
+                        <g id="color" transform="translate(3.500000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask" fill-rule="nonzero"></g>
+                            <g id="Group" mask="url(#mask-2)">
+                                <g transform="translate(-3.500000, 0.000000)" id="↳-color">
+                                    <rect id="$color-text-link-on-light" fill="#0E67A9" fill-rule="nonzero" x="0" y="0" width="14" height="14"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

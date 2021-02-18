@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Event / Component / Calendar / Blue</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-753.000000, -370.000000)">
+            <g id="Card-/-Events" transform="translate(729.000000, 276.000000)">
+                <g id="Group" transform="translate(13.000000, 85.000000)">
+                    <g id="Event-/-Component-/-Calendar-/-Blue" transform="translate(11.000000, 9.000000)">
+                        <g id="Calendar-Background" fill="#1B4472">
+                            <path d="M42,0 C44.209139,-4.05812251e-16 46,1.790861 46,4 L46,42 C46,44.209139 44.209139,46 42,46 L4,46 C1.790861,46 2.705415e-16,44.209139 0,42 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L42,0 Z M44,21 L2,21 L2,42 C2,43.1045695 2.8954305,44 4,44 L4,44 L42,44 C43.1045695,44 44,43.1045695 44,42 L44,42 L44,21 Z"></path>
+                        </g>
+                        <text id="Day" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                            <tspan x="15.2138672" y="37">30</tspan>
+                        </text>
+                        <text id="Month" font-family="Helvetica" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="8.34716797" y="16">MAY</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

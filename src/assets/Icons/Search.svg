@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Search</title>
+    <defs>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M4.125,0 C6.40317459,0 8.25,1.84682541 8.25,4.125 C8.25,5.12881485 7.89144229,6.04888406 7.29541524,6.76411926 L11.515165,10.984835 C11.6616117,11.1312816 11.6616117,11.3687184 11.515165,11.515165 C11.3687184,11.6616117 11.1312816,11.6616117 10.984835,11.515165 L10.984835,11.515165 L6.76411926,7.29541524 C6.04888406,7.89144229 5.12881485,8.25 4.125,8.25 C1.84682541,8.25 0,6.40317459 0,4.125 C0,1.84682541 1.84682541,0 4.125,0 Z M4.125,0.75 C2.26103897,0.75 0.75,2.26103897 0.75,4.125 C0.75,5.98896103 2.26103897,7.5 4.125,7.5 C5.98896103,7.5 7.5,5.98896103 7.5,4.125 C7.5,2.26103897 5.98896103,0.75 4.125,0.75 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-1405.000000, -23.000000)">
+            <g id="Search-Box" transform="translate(1126.000000, 16.000000)">
+                <g id="Icons-/-Search" transform="translate(280.000000, 7.000000)" filter="url(#filter-1)">
+                    <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                    <g id="color">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero"></g>
+                        <g id="Group" mask="url(#mask-3)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g id="↳-color">
+                                <rect id="$color-text-primary-on-dark" x="0" y="0" width="12" height="12"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
