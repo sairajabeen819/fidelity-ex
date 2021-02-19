@@ -27,7 +27,6 @@
             width: 210px;
             @include flex-container($justify-content: center, $flex-direction: row, $align-items: center);
             font-size: 13px;
-            line-height: 26;
             border-left: 1px solid $table-border-color;  
             height: 30px;
         }
