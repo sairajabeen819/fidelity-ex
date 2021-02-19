@@ -1,4 +1,5 @@
 @import "../../assets/shared/variables";
+@import "../../assets/shared/mixins";
 
 
 .position-ideas {
@@ -10,14 +11,11 @@
         padding: 0 15px;
     }
     h2 {
-        font-size: 18px;
+        font-size: 20px;
         color: $black-color;
     }
     ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+        @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: center);
         padding: 0 25px 40px;
         li {
             padding-right: 30px;
@@ -51,16 +49,11 @@
     padding: 5px 15px;
      
     .probability-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        @include flex-container($justify-content: space-between, $flex-direction: row, $align-items: center);
         padding: 10px 0;
         a {
             font-size: 16px;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
+            @include flex-container($justify-content: flex-end, $flex-direction: row, $align-items: center);
             
             i {
                 &:after {
@@ -162,10 +155,7 @@ table {
     
 }
 .profit-holder {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: center);
     font-weight: 300;
     .percent-num {
         color: $green-color !important;
@@ -173,10 +163,7 @@ table {
 }
 
 .table-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: center);
     border-top: 1px solid $table-border-color;
     padding-top: 10px;
     input {
@@ -198,10 +185,7 @@ table {
 .events-section {
     padding: 5px 15px 20px;
     .events-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        @include flex-container($justify-content: space-between, $flex-direction: row, $align-items: center);
         padding: 10px 0;
     }
     table {
@@ -226,10 +210,7 @@ table {
         }
     }
     .event-image-holder {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: flex-start);
         .image-holder {
             display: block;
             margin-right : 15px;

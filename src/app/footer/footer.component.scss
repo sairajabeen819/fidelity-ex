@@ -1,4 +1,5 @@
 @import "../../assets/shared/variables";
+@import "../../assets/shared/mixins";
 
 .next-step-section {
   padding: 5px 15px 5px;
@@ -17,21 +18,16 @@
       padding: 5px 15px 40px;
     }
      h3 {
-         font-size: 16px;
-         font-weight: 500;
+      font-size: 20px;
+      font-weight: 600;
      }
     .next-step-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        @include flex-container($justify-content: space-between, $flex-direction: row, $align-items: center);
         padding: 10px 0;
         border-bottom: 1px solid $table-border-color;
         a {
             font-size: 16px;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
+            @include flex-container($justify-content: flex-end, $flex-direction: row, $align-items: center);
             color: $link-blue-color;
             i {
                 &:after {
@@ -53,10 +49,7 @@
         border-bottom: 1px solid $table-border-color;
     }
    .select-content-holder {
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-start;
-          align-items: flex-end;
+          @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: flex-end);
           .numerics {
             padding-left: 30px;
             .bold-number {
@@ -72,10 +65,7 @@
             }
           }
           .bid-ask-volume {
-              display: flex;
-              flex-direction: row;
-              justify-content: space-between;
-              align-items: flex-end;
+              @include flex-container($justify-content: space-between, $flex-direction: row, $align-items: flex-end);
               margin-left: 20px !important;
               li {
                   border-right: 1px solid $table-border-color;
@@ -86,13 +76,10 @@
               }
           }
           .nyse-cover {
-              display: flex;
-              flex-direction: column;
+              @include flex-container($flex-direction: column);
               font-size: 12px;
             .nyse-bid {     
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                @include flex-container($justify-content: center, $flex-direction: row, $align-items: center);
             }
             .grey-text {
                 color: 	$light-grey-text;
@@ -128,6 +115,7 @@
       }
       select {
         flex: 1;
+        @include flex-container($flex: 1);
         padding: 0 .5em;
         color: $select-box-color;
         font-size: 12px;
@@ -196,18 +184,12 @@
               font-weight: 400;
           }
           .bottom-content {
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-start;
+              @include flex-container($justify-content: space-between, $flex-direction: column, $align-items: flex-start);
               padding-top: 15px;
               height: 112px;
               font-size: 14px;
               .text-select {
-                  display: flex;
-                  flex-direction: row;
-                  justify-content: flex-start;
-                  align-items: center;
+                  @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: center);
                   margin-bottom: 5px;
                   span {
                       margin-right: 10px;
@@ -224,11 +206,11 @@
               font-size: 12px;
               font-weight: 600;
               height: auto;
-              line-height: 1em;
-              margin: 0 0 0.75em;
-              padding: 0.7em 1em;
+              line-height: 12px;
+              margin: 0 0 9px;
+              padding: 8.4px 12px;
               text-decoration: none;
-              text-shadow: 0.0625em 0.0625em 0.25em $card-text-shadow;
+              text-shadow: 0.75px 0.75px 3px $card-text-shadow;
               width: auto;
               background: $card-btn-dark;
               background-image: -webkit-linear-gradient(top, $card-btn-light, $card-btn-dark);
@@ -237,12 +219,12 @@
               background-image: -o-linear-gradient(top, $card-btn-light, $card-btn-dark);
               background-image: linear-gradient(to bottom, $card-btn-light, $card-btn-dark);
               background: -webkit-gradient(linear,left top,left bottom,color-stop(0%, $card-btn-light),color-stop(50%, $card-btn-dark));
-              -moz-border-radius: .1875em;
-              -webkit-border-radius: .1875em;
-              border-radius: .1875em;
-              -moz-box-shadow: .0625em .0625em .125em $card-btn-shadow;
-              -webkit-box-shadow: 0.0625em 0.0625em 0.125em $card-btn-shadow;
-              box-shadow: 0.0625em 0.0625em 0.125em $card-btn-shadow;
+              -moz-border-radius: 2.25px;
+              -webkit-border-radius: 2.25px;
+              border-radius: 2.25px;
+              -moz-box-shadow: .75px .75px 1.5px $card-btn-shadow;
+              -webkit-box-shadow: .75px .75px 1.5px $card-btn-shadow;
+              box-shadow: .75px .75px 1.5px $card-btn-shadow;
               text-align: center;
               &:hover {
                   background: -webkit-linear-gradient(top, $card-btn-light 0, $card-text-shadow 50%);

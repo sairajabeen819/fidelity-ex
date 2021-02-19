@@ -1,4 +1,6 @@
 @import "../../assets/shared/variables";
+@import "../../assets/shared/mixins";
+
 
 .market-insights {
     max-width: 100%;
@@ -19,15 +21,11 @@
         }
     }
     ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        @include flex-container($justify-content: center, $flex-direction: row, $align-items: center);
         padding: 2px 0 2px 60px;
         li {
             width: 210px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include flex-container($justify-content: center, $flex-direction: row, $align-items: center);
             font-size: 13px;
             line-height: 26;
             border-left: 1px solid $table-border-color;  
@@ -45,9 +43,7 @@
         color: $red-color;
     }
     .inner-holder {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        @include flex-container($justify-content: flex-start, $flex-direction: row);
     }
     .insights-link-color {
         color: $link-blue-color;
